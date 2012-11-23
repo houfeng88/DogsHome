@@ -1,0 +1,12 @@
+/* 
+  Localizable.strings
+  pos
+
+  Created by houfeng on 12-10-9.
+  Copyright (c) 2012年 houfeng. All rights reserved.
+*/
+//login
+"dogknowledage"="dogknowledage";
+"mydog"="mydog";
+"dogclass"="dogclass";
+"feedkills"="feedkills";

@@ -1,0 +1,12 @@
+/* 
+  Localizable.strings
+  pos
+
+  Created by houfeng on 12-10-9.
+  Copyright (c) 2012年 houfeng. All rights reserved.
+*/
+//login
+"dogknowledage"="狗狗常识";
+"mydog"="我狗狗";
+"dogclass"="狗狗种类";
+"feedkills"="饲养技巧";

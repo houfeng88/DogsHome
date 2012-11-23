@@ -1,0 +1,531 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CF0539AB16589493004C3302 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = CF0539AD16589493004C3302 /* Localizable.strings */; };
+		CF0539B316589620004C3302 /* MyDogViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF0539B216589620004C3302 /* MyDogViewController.m */; };
+		CF0539BF1658C24D004C3302 /* DogCategoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF0539BE1658C24D004C3302 /* DogCategoryViewController.m */; };
+		CF0539C21658E364004C3302 /* DogKnowledageMenu.plist in Resources */ = {isa = PBXBuildFile; fileRef = CF0539C11658E364004C3302 /* DogKnowledageMenu.plist */; };
+		CF0539C91658E465004C3302 /* HFUtillity.m in Sources */ = {isa = PBXBuildFile; fileRef = CF0539C81658E465004C3302 /* HFUtillity.m */; };
+		CF0539CB1658E700004C3302 /* MyDogMenu.plist in Resources */ = {isa = PBXBuildFile; fileRef = CF0539CA1658E700004C3302 /* MyDogMenu.plist */; };
+		CF3AC8061619CD7600C43518 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF3AC8051619CD7600C43518 /* UIKit.framework */; };
+		CF3AC8081619CD7600C43518 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF3AC8071619CD7600C43518 /* Foundation.framework */; };
+		CF3AC80A1619CD7600C43518 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF3AC8091619CD7600C43518 /* CoreGraphics.framework */; };
+		CF3AC8101619CD7600C43518 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CF3AC80E1619CD7600C43518 /* InfoPlist.strings */; };
+		CF3AC8121619CD7600C43518 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CF3AC8111619CD7600C43518 /* main.m */; };
+		CF3AC8161619CD7600C43518 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CF3AC8151619CD7600C43518 /* AppDelegate.m */; };
+		CF3AC8181619CD7600C43518 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = CF3AC8171619CD7600C43518 /* Default.png */; };
+		CF3AC81A1619CD7600C43518 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CF3AC8191619CD7600C43518 /* Default@2x.png */; };
+		CF3AC81C1619CD7600C43518 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CF3AC81B1619CD7600C43518 /* Default-568h@2x.png */; };
+		CF3AC8241619CD7600C43518 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF3AC8231619CD7600C43518 /* SenTestingKit.framework */; };
+		CF3AC8251619CD7600C43518 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF3AC8051619CD7600C43518 /* UIKit.framework */; };
+		CF3AC8261619CD7600C43518 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF3AC8071619CD7600C43518 /* Foundation.framework */; };
+		CF3AC82E1619CD7600C43518 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CF3AC82C1619CD7600C43518 /* InfoPlist.strings */; };
+		CF3AC8311619CD7600C43518 /* DogsHomeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CF3AC8301619CD7600C43518 /* DogsHomeTests.m */; };
+		CF8899C6161B374300CC8481 /* DogKnowledgeController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF8899C5161B374300CC8481 /* DogKnowledgeController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CF3AC8271619CD7600C43518 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF3AC7F81619CD7500C43518 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF3AC8001619CD7600C43518;
+			remoteInfo = DogsHome;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CF0539AC16589493004C3302 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		CF0539AE165894A9004C3302 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		CF0539AF165894A9004C3302 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		CF0539B0165894A9004C3302 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		CF0539B116589620004C3302 /* MyDogViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyDogViewController.h; sourceTree = "<group>"; };
+		CF0539B216589620004C3302 /* MyDogViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyDogViewController.m; sourceTree = "<group>"; };
+		CF0539BD1658C24D004C3302 /* DogCategoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DogCategoryViewController.h; sourceTree = "<group>"; };
+		CF0539BE1658C24D004C3302 /* DogCategoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DogCategoryViewController.m; sourceTree = "<group>"; };
+		CF0539C11658E364004C3302 /* DogKnowledageMenu.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = DogKnowledageMenu.plist; sourceTree = "<group>"; };
+		CF0539C71658E465004C3302 /* HFUtillity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HFUtillity.h; sourceTree = "<group>"; };
+		CF0539C81658E465004C3302 /* HFUtillity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HFUtillity.m; sourceTree = "<group>"; };
+		CF0539CA1658E700004C3302 /* MyDogMenu.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = MyDogMenu.plist; sourceTree = "<group>"; };
+		CF3AC8011619CD7600C43518 /* DogsHome.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DogsHome.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF3AC8051619CD7600C43518 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CF3AC8071619CD7600C43518 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CF3AC8091619CD7600C43518 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CF3AC80D1619CD7600C43518 /* DogsHome-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DogsHome-Info.plist"; sourceTree = "<group>"; };
+		CF3AC80F1619CD7600C43518 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CF3AC8111619CD7600C43518 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CF3AC8131619CD7600C43518 /* DogsHome-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DogsHome-Prefix.pch"; sourceTree = "<group>"; };
+		CF3AC8141619CD7600C43518 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CF3AC8151619CD7600C43518 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CF3AC8171619CD7600C43518 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		CF3AC8191619CD7600C43518 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		CF3AC81B1619CD7600C43518 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		CF3AC8221619CD7600C43518 /* DogsHomeTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DogsHomeTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF3AC8231619CD7600C43518 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		CF3AC82B1619CD7600C43518 /* DogsHomeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DogsHomeTests-Info.plist"; sourceTree = "<group>"; };
+		CF3AC82D1619CD7600C43518 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CF3AC82F1619CD7600C43518 /* DogsHomeTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DogsHomeTests.h; sourceTree = "<group>"; };
+		CF3AC8301619CD7600C43518 /* DogsHomeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DogsHomeTests.m; sourceTree = "<group>"; };
+		CF8899C4161B374300CC8481 /* DogKnowledgeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DogKnowledgeController.h; sourceTree = "<group>"; };
+		CF8899C5161B374300CC8481 /* DogKnowledgeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DogKnowledgeController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CF3AC7FE1619CD7600C43518 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF3AC8061619CD7600C43518 /* UIKit.framework in Frameworks */,
+				CF3AC8081619CD7600C43518 /* Foundation.framework in Frameworks */,
+				CF3AC80A1619CD7600C43518 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF3AC81E1619CD7600C43518 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF3AC8241619CD7600C43518 /* SenTestingKit.framework in Frameworks */,
+				CF3AC8251619CD7600C43518 /* UIKit.framework in Frameworks */,
+				CF3AC8261619CD7600C43518 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CF0539B81658C1CC004C3302 /* DogKnowledage */ = {
+			isa = PBXGroup;
+			children = (
+				CF8899C4161B374300CC8481 /* DogKnowledgeController.h */,
+				CF8899C5161B374300CC8481 /* DogKnowledgeController.m */,
+				CF0539BD1658C24D004C3302 /* DogCategoryViewController.h */,
+				CF0539BE1658C24D004C3302 /* DogCategoryViewController.m */,
+			);
+			name = DogKnowledage;
+			sourceTree = "<group>";
+		};
+		CF0539B91658C1E2004C3302 /* MyDog */ = {
+			isa = PBXGroup;
+			children = (
+				CF0539B116589620004C3302 /* MyDogViewController.h */,
+				CF0539B216589620004C3302 /* MyDogViewController.m */,
+			);
+			name = MyDog;
+			sourceTree = "<group>";
+		};
+		CF0539C01658E330004C3302 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				CF0539CA1658E700004C3302 /* MyDogMenu.plist */,
+				CF0539C11658E364004C3302 /* DogKnowledageMenu.plist */,
+				CF0539C71658E465004C3302 /* HFUtillity.h */,
+				CF0539C81658E465004C3302 /* HFUtillity.m */,
+			);
+			name = Config;
+			sourceTree = "<group>";
+		};
+		CF3AC7F61619CD7500C43518 = {
+			isa = PBXGroup;
+			children = (
+				CF3AC80B1619CD7600C43518 /* DogsHome */,
+				CF3AC8291619CD7600C43518 /* DogsHomeTests */,
+				CF3AC8041619CD7600C43518 /* Frameworks */,
+				CF3AC8021619CD7600C43518 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CF3AC8021619CD7600C43518 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CF3AC8011619CD7600C43518 /* DogsHome.app */,
+				CF3AC8221619CD7600C43518 /* DogsHomeTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF3AC8041619CD7600C43518 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CF3AC8051619CD7600C43518 /* UIKit.framework */,
+				CF3AC8071619CD7600C43518 /* Foundation.framework */,
+				CF3AC8091619CD7600C43518 /* CoreGraphics.framework */,
+				CF3AC8231619CD7600C43518 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CF3AC80B1619CD7600C43518 /* DogsHome */ = {
+			isa = PBXGroup;
+			children = (
+				CF0539C01658E330004C3302 /* Config */,
+				CF8899C0161B358800CC8481 /* ViewControllers */,
+				CF3AC8141619CD7600C43518 /* AppDelegate.h */,
+				CF3AC8151619CD7600C43518 /* AppDelegate.m */,
+				CF3AC80C1619CD7600C43518 /* Supporting Files */,
+			);
+			path = DogsHome;
+			sourceTree = "<group>";
+		};
+		CF3AC80C1619CD7600C43518 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CF0539AD16589493004C3302 /* Localizable.strings */,
+				CF3AC80D1619CD7600C43518 /* DogsHome-Info.plist */,
+				CF3AC80E1619CD7600C43518 /* InfoPlist.strings */,
+				CF3AC8111619CD7600C43518 /* main.m */,
+				CF3AC8131619CD7600C43518 /* DogsHome-Prefix.pch */,
+				CF3AC8171619CD7600C43518 /* Default.png */,
+				CF3AC8191619CD7600C43518 /* Default@2x.png */,
+				CF3AC81B1619CD7600C43518 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CF3AC8291619CD7600C43518 /* DogsHomeTests */ = {
+			isa = PBXGroup;
+			children = (
+				CF3AC82F1619CD7600C43518 /* DogsHomeTests.h */,
+				CF3AC8301619CD7600C43518 /* DogsHomeTests.m */,
+				CF3AC82A1619CD7600C43518 /* Supporting Files */,
+			);
+			path = DogsHomeTests;
+			sourceTree = "<group>";
+		};
+		CF3AC82A1619CD7600C43518 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CF3AC82B1619CD7600C43518 /* DogsHomeTests-Info.plist */,
+				CF3AC82C1619CD7600C43518 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CF8899C0161B358800CC8481 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				CF0539B91658C1E2004C3302 /* MyDog */,
+				CF0539B81658C1CC004C3302 /* DogKnowledage */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CF3AC8001619CD7600C43518 /* DogsHome */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF3AC8341619CD7600C43518 /* Build configuration list for PBXNativeTarget "DogsHome" */;
+			buildPhases = (
+				CF3AC7FD1619CD7600C43518 /* Sources */,
+				CF3AC7FE1619CD7600C43518 /* Frameworks */,
+				CF3AC7FF1619CD7600C43518 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DogsHome;
+			productName = DogsHome;
+			productReference = CF3AC8011619CD7600C43518 /* DogsHome.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CF3AC8211619CD7600C43518 /* DogsHomeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF3AC8371619CD7600C43518 /* Build configuration list for PBXNativeTarget "DogsHomeTests" */;
+			buildPhases = (
+				CF3AC81D1619CD7600C43518 /* Sources */,
+				CF3AC81E1619CD7600C43518 /* Frameworks */,
+				CF3AC81F1619CD7600C43518 /* Resources */,
+				CF3AC8201619CD7600C43518 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CF3AC8281619CD7600C43518 /* PBXTargetDependency */,
+			);
+			name = DogsHomeTests;
+			productName = DogsHomeTests;
+			productReference = CF3AC8221619CD7600C43518 /* DogsHomeTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CF3AC7F81619CD7500C43518 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = houfeng;
+			};
+			buildConfigurationList = CF3AC7FB1619CD7500C43518 /* Build configuration list for PBXProject "DogsHome" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				"zh-Hans",
+			);
+			mainGroup = CF3AC7F61619CD7500C43518;
+			productRefGroup = CF3AC8021619CD7600C43518 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CF3AC8001619CD7600C43518 /* DogsHome */,
+				CF3AC8211619CD7600C43518 /* DogsHomeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CF3AC7FF1619CD7600C43518 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF3AC8101619CD7600C43518 /* InfoPlist.strings in Resources */,
+				CF3AC8181619CD7600C43518 /* Default.png in Resources */,
+				CF3AC81A1619CD7600C43518 /* Default@2x.png in Resources */,
+				CF3AC81C1619CD7600C43518 /* Default-568h@2x.png in Resources */,
+				CF0539AB16589493004C3302 /* Localizable.strings in Resources */,
+				CF0539C21658E364004C3302 /* DogKnowledageMenu.plist in Resources */,
+				CF0539CB1658E700004C3302 /* MyDogMenu.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF3AC81F1619CD7600C43518 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF3AC82E1619CD7600C43518 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		CF3AC8201619CD7600C43518 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CF3AC7FD1619CD7600C43518 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF3AC8121619CD7600C43518 /* main.m in Sources */,
+				CF3AC8161619CD7600C43518 /* AppDelegate.m in Sources */,
+				CF8899C6161B374300CC8481 /* DogKnowledgeController.m in Sources */,
+				CF0539B316589620004C3302 /* MyDogViewController.m in Sources */,
+				CF0539BF1658C24D004C3302 /* DogCategoryViewController.m in Sources */,
+				CF0539C91658E465004C3302 /* HFUtillity.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF3AC81D1619CD7600C43518 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF3AC8311619CD7600C43518 /* DogsHomeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CF3AC8281619CD7600C43518 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CF3AC8001619CD7600C43518 /* DogsHome */;
+			targetProxy = CF3AC8271619CD7600C43518 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CF0539AD16589493004C3302 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF0539AC16589493004C3302 /* en */,
+				CF0539AF165894A9004C3302 /* zh-Hans */,
+			);
+			name = Localizable.strings;
+			path = DogsHomeTests;
+			sourceTree = SOURCE_ROOT;
+		};
+		CF3AC80E1619CD7600C43518 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF3AC80F1619CD7600C43518 /* en */,
+				CF0539AE165894A9004C3302 /* zh-Hans */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CF3AC82C1619CD7600C43518 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF3AC82D1619CD7600C43518 /* en */,
+				CF0539B0165894A9004C3302 /* zh-Hans */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CF3AC8321619CD7600C43518 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CF3AC8331619CD7600C43518 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CF3AC8351619CD7600C43518 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DogsHome/DogsHome-Prefix.pch";
+				INFOPLIST_FILE = "DogsHome/DogsHome-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CF3AC8361619CD7600C43518 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DogsHome/DogsHome-Prefix.pch";
+				INFOPLIST_FILE = "DogsHome/DogsHome-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		CF3AC8381619CD7600C43518 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/DogsHome.app/DogsHome";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DogsHome/DogsHome-Prefix.pch";
+				INFOPLIST_FILE = "DogsHomeTests/DogsHomeTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		CF3AC8391619CD7600C43518 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/DogsHome.app/DogsHome";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DogsHome/DogsHome-Prefix.pch";
+				INFOPLIST_FILE = "DogsHomeTests/DogsHomeTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CF3AC7FB1619CD7500C43518 /* Build configuration list for PBXProject "DogsHome" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF3AC8321619CD7600C43518 /* Debug */,
+				CF3AC8331619CD7600C43518 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF3AC8341619CD7600C43518 /* Build configuration list for PBXNativeTarget "DogsHome" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF3AC8351619CD7600C43518 /* Debug */,
+				CF3AC8361619CD7600C43518 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF3AC8371619CD7600C43518 /* Build configuration list for PBXNativeTarget "DogsHomeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF3AC8381619CD7600C43518 /* Debug */,
+				CF3AC8391619CD7600C43518 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CF3AC7F81619CD7500C43518 /* Project object */;
+}
